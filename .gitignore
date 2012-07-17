@@ -1,27 +1,31 @@
 #Android generated
 bin
 gen
+lint.xml
 
 #Eclipse
 
 .settings
+.checkstyle
 
 #IntelliJ IDEA
 .idea
 *.iml
 *.ipr
 *.iws
+classes
+gen-external-apklibs
 
 #Maven
 target
 release.properties
 pom.xml.*
 
-website/_site
-
 #Ant
 local.properties
 proguard.cfg
+proguard-project.txt
 
-#OSX
+#Other
 .DS_Store
+tmp
